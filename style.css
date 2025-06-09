@@ -1,0 +1,25 @@
+ /* EN: Base styling for body and container // IT: Stili di base per il body e il container */
+    body {
+      background-color: #f8f9fa;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .container {
+      max-width: 960px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    /* EN: Styling for snippet card code display // IT: Stile per la visualizzazione del codice nelle card */
+    pre {
+      background-color: #272822;
+      color: #f8f8f2;
+      padding: 10px;
+      overflow-x: auto;
+      border-radius: 5px;
+    }
+    /* EN: Additional styling for Export CSV button // IT: Stile aggiuntivo per il pulsante Export CSV */
+    #exportCsvBtn {
+      margin-top: 10px;
+    }
